@@ -48,7 +48,7 @@ public class LoginServlet extends HttpServlet {
 		String nextpage = null;
 //	dto에 정보가 있다면 login이라는 값으로 session에 저장, 정보 유무에 따라 이동페이지를 다르게 설정
 		if(dto!=null) {
-			nextpage="main.jsp";
+			nextpage="main";
 			HttpSession session = request.getSession();
 			session.setAttribute("login", dto);
 			session.setMaxInactiveInterval(3600);

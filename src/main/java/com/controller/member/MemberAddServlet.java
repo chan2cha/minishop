@@ -59,7 +59,7 @@ public class MemberAddServlet extends HttpServlet {
 		HttpSession session = request.getSession();
 		session.setAttribute("memberAdd", "회원가입성공"); //가입 여부 확인후 성공 메시지 출력
 		session.setMaxInactiveInterval(5); //유효시간 초단위
-		response.sendRedirect("main.jsp"); //main으로 이동
+		response.sendRedirect("main"); //main으로 이동
 		
 	}
 

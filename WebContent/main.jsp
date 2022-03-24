@@ -21,5 +21,7 @@
 <h1>메인 화면 입니다.</h1>
 <jsp:include page="common/top.jsp"></jsp:include><br>
 <jsp:include page="common/menu.jsp"></jsp:include>
+<hr>
+<jsp:include page="goods/goodsList.jsp"></jsp:include>
 </body>
 </html>
